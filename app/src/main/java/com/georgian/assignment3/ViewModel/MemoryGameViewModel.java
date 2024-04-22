@@ -20,12 +20,4 @@ public class MemoryGameViewModel extends ViewModel {
         memoryGame.setName(name);
     }
 
-    public LiveData<Integer> getScore() {
-        return memoryGame.getScore();
-    }
-
-    public void setScore(Integer score){
-        memoryGame.setScore(score);
-    }
-
 }
